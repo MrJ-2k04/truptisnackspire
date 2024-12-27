@@ -19,7 +19,8 @@ export default function LoginForm({ authUrl, dashboardUrl }) {
   return (
     <div className="admin-login-form">
       <div className="flex items-center justify-center mb-12">
-        <svg
+        <img src="/logo-with-text.svg" alt="" width={200} />
+        {/* <svg
           width="60"
           height="61"
           viewBox="0 0 251 276"
@@ -38,7 +39,7 @@ export default function LoginForm({ authUrl, dashboardUrl }) {
             d="M243.362 126.557C239.74 128.511 211.814 143.953 181.254 160.844C150.694 177.735 125.468 191.537 125.139 191.537C124.81 191.537 107.751 182.21 87.1363 170.865L49.7263 150.192L49.5288 164.688C49.397 175.781 49.5946 179.373 50.1874 179.941C51.4388 181.012 124.349 221.16 125.139 221.16C125.798 221.16 248.763 153.406 249.817 152.524C250.08 152.272 250.212 145.528 250.146 137.461L249.949 122.902L243.362 126.557Z"
             fill="#008060"
           />
-        </svg>
+        </svg> */}
       </div>
       {error && <div className="text-critical py-4">{error}</div>}
       <Form

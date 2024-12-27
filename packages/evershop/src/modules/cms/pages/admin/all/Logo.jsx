@@ -5,8 +5,9 @@ import './Logo.scss';
 export default function Logo({ dashboardUrl }) {
   return (
     <div className="logo">
-      <a href={dashboardUrl} className="flex items-end">
-        <svg
+      <a href={dashboardUrl} className="flex items-center">
+        <img src="/admin-logo.png" alt="" width={70} />
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           width="254"
           height="292"
@@ -60,8 +61,8 @@ export default function Logo({ dashboardUrl }) {
               <stop offset="1" stopColor="#27BEA3" />
             </linearGradient>
           </defs>
-        </svg>
-        <span className="font-bold">EVERSHOP</span>
+        </svg> */}
+        <span className="font-bold">TRUPTI SNACKSPIRE</span>
       </a>
     </div>
   );

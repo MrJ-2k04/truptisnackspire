@@ -34,5 +34,13 @@
         "client_secret": "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",
         "success_redirect_url": "https://truptisnackspire.onrender.com",
         "failure_redirect_url": "https://truptisnackspire.onrender.com/account/login"
+    },
+    "themeConfig": {
+        "logo": {
+            "alt": "Shop logo",
+            "src": "/logo.svg",
+            "width": 84,
+            "height": 84
+        }
     }
 }
