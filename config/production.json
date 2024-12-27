@@ -1,0 +1,37 @@
+{
+    "shop": {
+        "currency": "INR",
+        "language": "en",
+        "weightUnit": "g",
+        "timezone": "UTC"
+    },
+    "system": {
+        "file_storage": "s3",
+        "extensions": [
+            {
+                "name": "s3_file_storage",
+                "resolve": "node_modules/@evershop/s3_file_storage",
+                "enabled": true,
+                "priority": 10
+            },
+            {
+                "name": "product_review",
+                "resolve": "node_modules/@evershop/product_review",
+                "enabled": true,
+                "priority": 10
+            },
+            {
+                "name": "google_login",
+                "resolve": "node_modules/@evershop/google_login",
+                "enabled": true,
+                "priority": 10
+            }
+        ]
+    },
+    "google_login": {
+        "client_id": "1092746304122-n83nnirn5rvf61hf246blvp4nulumnfm.apps.googleusercontent.com",
+        "client_secret": "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",
+        "success_redirect_url": "https://truptisnackspire.onrender.com",
+        "failure_redirect_url": "https://truptisnackspire.onrender.com/account/login"
+    }
+}
