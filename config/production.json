@@ -3,7 +3,8 @@
         "currency": "INR",
         "language": "en",
         "weightUnit": "g",
-        "timezone": "UTC"
+        "timezone": "UTC",
+        "homeUrl": "https://truptisnackspire.onrender.com"
     },
     "system": {
         "file_storage": "s3",

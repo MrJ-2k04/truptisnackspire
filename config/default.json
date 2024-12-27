@@ -3,7 +3,8 @@
         "currency": "INR",
         "language": "en",
         "weightUnit": "g",
-        "timezone": "UTC"
+        "timezone": "UTC",
+        "homeUrl": "http://localhost:3000"
     },
     "system": {
         "file_storage": "s3",
@@ -31,7 +32,7 @@
     "google_login": {
         "client_id": "1092746304122-n83nnirn5rvf61hf246blvp4nulumnfm.apps.googleusercontent.com",
         "client_secret": "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",
-        "success_redirect_url": "http://localhost:3000",
-        "failure_redirect_url": "http://localhost:3000/account/login"
+        "success_redirect_url": "https://truptisnackspire.onrender.com",
+        "failure_redirect_url": "https://truptisnackspire.onrender.com/account/login"
     }
 }

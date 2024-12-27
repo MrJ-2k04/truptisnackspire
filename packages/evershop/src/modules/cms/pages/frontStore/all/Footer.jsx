@@ -89,7 +89,11 @@ function Footer({ themeConfig: { copyRight } }) {
         </div>
         <div className="self-center">
           <div className="copyright text-center md:text-right text-textSubdued">
-            <span>{copyRight}</span>
+            <span>
+              © {new Date().getFullYear()} &nbsp;
+              <a href="https://webwizards.in" target="_blank" rel="noopener noreferrer">Webwizards.in</a>&nbsp; |&nbsp; All Rights Reserved.
+            </span>
+            {/* <span>{copyRight}</span> */}
           </div>
         </div>
       </div>
