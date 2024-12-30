@@ -53,7 +53,7 @@ function Footer({ themeConfig: { copyRight } }) {
                 />
               </svg>
             </div>
-            <div>
+            {/* <div>
               <svg
                 viewBox="0 0 38 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ function Footer({ themeConfig: { copyRight } }) {
                   d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"
                 />
               </svg>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="self-center">
