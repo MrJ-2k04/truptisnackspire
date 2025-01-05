@@ -2,6 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Breadcrumb({ pageInfo: { breadcrumbs } }) {
+  try {
+    if (breadcrumbs.length === 2 && new URL(breadcrumbs[1].url).pathname === "/") {
+      return null;
+    }
+  } catch (error) {}
+
   return breadcrumbs.length ? (
     <div className="breadcrumb page-width my-8">
       {breadcrumbs.map((breadcrumb, index) =>
