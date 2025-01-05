@@ -27,6 +27,19 @@
                 "enabled": true,
                 "priority": 10
             }
+        ],
+        "upload_allowed_mime_types": [
+            "image/jpeg",
+            "image/png",
+            "image/gif",
+            "image/webp",
+            "image/avif",
+            "image/apng",
+            "video/mp4",
+            "video/ogg",
+            "video/webm",
+            "video/quicktime",
+            "video/mpeg"
         ]
     },
     "google_login": {
