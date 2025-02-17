@@ -5,6 +5,7 @@ import './GeneralInfo.scss';
 import { Name } from '@components/frontStore/catalog/product/single/Name';
 import { Price } from '@components/frontStore/catalog/product/single/Price';
 import { Sku } from '@components/frontStore/catalog/product/single/Sku';
+import { Weight } from '@components/frontStore/catalog/product/single/Weight';
 
 export default function GeneralInfo({ product }) {
   return (
@@ -36,6 +37,14 @@ export default function GeneralInfo({ product }) {
           },
           sortOrder: 20,
           id: 'productSingleSku'
+        },
+        {
+          component: { default: Weight },
+          props: {
+            weight: product.weight
+          },
+          sortOrder: 30,
+          id: 'productSingleWeight'
         }
       ]}
     />
@@ -69,6 +78,11 @@ export const query = `
     product (id: getContextValue('productId')) {
       name
       sku
+      weight {
+        value
+        unit
+        text
+      }
       price {
         regular {
           value
